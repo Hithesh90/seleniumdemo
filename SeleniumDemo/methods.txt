@@ -1,0 +1,73 @@
+-------------->
+return type--->
+
+
+methods:
+
+1)object get(url)
+--------------> It will load a new web page in the current browser window.
+return type--->object
+
+
+2)String getCurrentUrl()
+-------------->It gets the current URL that the browser is opened in the form of string.
+return type--->String(url)
+
+
+3)String getTitle()
+-------------->It Gets the title of the current web page.
+return type--->String 
+
+4)void close()
+-------------->It Close the current window 
+return type--->void
+
+5)void quit()
+-------------->It closes the browser ,It Quits this driver instance, closing every associated window which is opened.
+return type--->void
+
+6)set getWindowHandles()
+-------------->It Returns a set of window i.e both parent and child windows.
+return type--->set
+
+7)String getWindowHandle()
+-------------->It is used to get parent window,if there are child windows.
+return type--->String
+
+8)Navigation navigate()
+-------------->the driver to access the browser's history and to navigate to a given URL.
+return type--->navigation 
+ 
+9)Options manage()
+-------------->It Gets the Option interface
+return type--->Options
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
