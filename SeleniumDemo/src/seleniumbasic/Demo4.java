@@ -19,6 +19,7 @@ public class Demo4 {
 	
 	WebElement next=driver.findElement(By.id("identifierNext"));
 	next.click();
+	
 	Thread.sleep(2000);
 	WebElement passwrd=driver.findElement(By.name("password"));
       passwrd.sendKeys("hithehhhh",Keys.ENTER);
